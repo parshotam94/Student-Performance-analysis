@@ -1,0 +1,16 @@
+[2026-06-12 11:57:59,626] INFO data_ingestion.py:42 - Data Ingestion Started
+[2026-06-12 11:57:59,758] INFO data_ingestion.py:48 - Dataset loaded successfully
+[2026-06-12 11:57:59,780] INFO data_ingestion.py:60 - Raw dataset saved
+[2026-06-12 11:57:59,843] INFO data_ingestion.py:81 - Train Test Split Completed
+[2026-06-12 11:57:59,885] INFO data_transformation.py:122 - Train and Test Dataset Loaded
+[2026-06-12 11:57:59,886] INFO data_transformation.py:87 - Numerical and Categorical Pipelines Created
+[2026-06-12 11:57:59,899] INFO data_transformation.py:156 - Applying Preprocessing
+[2026-06-12 11:57:59,944] INFO utils.py:24 - Object saved at: artifacts\preprocessor.pkl
+[2026-06-12 11:57:59,944] INFO data_transformation.py:187 - Preprocessor Saved Successfully
+[2026-06-12 11:57:59,944] INFO model_trainer.py:42 - Splitting Training and Testing Arrays
+[2026-06-12 11:57:59,979] INFO model_trainer.py:83 - Linear Regression R2 Score : 0.8804332983749565
+[2026-06-12 11:57:59,993] INFO model_trainer.py:83 - Decision Tree R2 Score : 0.7249098374937947
+[2026-06-12 11:58:00,633] INFO model_trainer.py:83 - Random Forest R2 Score : 0.850983120810932
+[2026-06-12 11:58:00,633] INFO model_trainer.py:103 - Best Model : Linear Regression
+[2026-06-12 11:58:00,637] INFO utils.py:24 - Object saved at: artifacts\model.pkl
+[2026-06-12 11:58:00,638] INFO model_trainer.py:121 - Final R2 Score : 0.8804332983749565

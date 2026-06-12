@@ -1,0 +1,145 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>ML Dashboard</title>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+
+  <body>
+    <div class="dashboard-container">
+      <h1 class="dashboard-title">Data Science Dashboard</h1>
+
+      <!-- Summary Cards -->
+
+      <div class="card-container">
+        <div class="card">
+          <h3>Rows</h3>
+
+          <h2>{{data.rows}}</h2>
+        </div>
+
+        <div class="card">
+          <h3>Columns</h3>
+
+          <h2>{{data.columns}}</h2>
+        </div>
+
+        <div class="card">
+          <h3>Missing Values</h3>
+
+          <h2>{{data.missing_values | length}}</h2>
+        </div>
+
+        <div class="card">
+          <h3>Target</h3>
+
+          <h2>{{data.target_value}}</h2>
+        </div>
+      </div>
+
+      <!-- Dataset Columns -->
+
+      <div class="section">
+        <h2>Dataset Columns</h2>
+
+        <div class="column-list">
+          {% for col in data.column_names %}
+
+          <span> {{col}} </span>
+
+          {% endfor %}
+        </div>
+      </div>
+
+      <!-- Statistics -->
+
+      <div class="section">
+        <h2>Statistics</h2>
+
+        <table class="stats-table">
+          <tr>
+            <th>Feature</th>
+
+            <th>Mean</th>
+
+            <th>Standard Deviation</th>
+          </tr>
+
+          {% for key,value in data.mean.items() %}
+
+          <tr>
+            <td>{{key}}</td>
+
+            <td>{{value | round(2)}}</td>
+
+            <td>{{data.std[key] | round(2)}}</td>
+          </tr>
+
+          {% endfor %}
+        </table>
+      </div>
+
+      <!-- Visualization -->
+
+      <div class="section">
+
+    <h2>EDA Visualization</h2>
+
+
+    <div class="image-card">
+
+
+        <img
+        src="{{ url_for('static',
+        filename='images/histogram.png') }}"
+        >
+
+
+
+        <img
+        src="{{ url_for('static',
+        filename='images/all_relationship.png') }}"
+        >
+
+
+
+        <img
+        src="{{ url_for('static',
+        filename='images/barplot.png') }}"
+        >
+
+
+
+        <img
+        src="{{ url_for('static',
+        filename='images/heatmap.png') }}"
+        >
+
+
+
+        <img
+        src="{{ url_for('static',
+        filename='images/parental_impact.png') }}"
+        >
+
+
+
+        <img
+        src="{{ url_for('static',
+        filename='images/score_relationship.png') }}"
+        >
+
+
+    </div>
+
+      </div>
+
+      <p>Do you want to test it? <a href="{{ url_for('predict') }}" class="prediction-button"> Go To Prediction</a> </p>
+
+  </body>
+</html>

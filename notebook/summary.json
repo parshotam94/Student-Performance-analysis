@@ -1,0 +1,38 @@
+{
+    "rows": 1000,
+    "columns": 10,
+    "column_names": [
+        "gender",
+        "race_ethnicity",
+        "parental_level_of_education",
+        "lunch",
+        "test_preparation_course",
+        "math_score",
+        "reading_score",
+        "writing_score",
+        "total_score",
+        "average"
+    ],
+    "mean": {
+        "math_score": 66.089,
+        "reading_score": 69.169,
+        "writing_score": 68.054,
+        "total_score": 203.312,
+        "average": 67.77066666666666
+    },
+    "median": {
+        "math_score": 66.0,
+        "reading_score": 70.0,
+        "writing_score": 69.0,
+        "total_score": 205.0,
+        "average": 68.33333333333333
+    },
+    "std": {
+        "math_score": 15.163080096009468,
+        "reading_score": 14.60019193725222,
+        "writing_score": 15.195657010869642,
+        "total_score": 42.77197795400746,
+        "average": 14.257325984669153
+    },
+    "target":"maths_score"
+}

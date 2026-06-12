@@ -1,0 +1,11 @@
+[2026-06-12 22:43:57,971] INFO _internal.py:96 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-06-12 22:43:57,972] INFO _internal.py:96 - [33mPress CTRL+C to quit[0m
+[2026-06-12 22:43:58,001] INFO _internal.py:96 -  * Restarting with watchdog (windowsapi)
+[2026-06-12 22:46:04,239] INFO _internal.py:96 -  * Restarting with watchdog (windowsapi)
+[2026-06-12 22:58:44,082] INFO _internal.py:96 -  * Restarting with watchdog (windowsapi)
+[2026-06-12 22:58:57,469] INFO _internal.py:96 -  * Restarting with watchdog (windowsapi)
+[2026-06-12 23:07:43,674] INFO _internal.py:96 -  * Restarting with watchdog (windowsapi)
+[2026-06-12 23:10:02,243] INFO _internal.py:96 -  * Restarting with watchdog (windowsapi)
+[2026-06-12 23:10:21,896] INFO _internal.py:96 -  * Restarting with watchdog (windowsapi)
+[2026-06-12 23:11:01,332] INFO _internal.py:96 -  * Restarting with watchdog (windowsapi)

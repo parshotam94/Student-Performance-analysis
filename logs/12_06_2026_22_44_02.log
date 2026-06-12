@@ -1,0 +1,7 @@
+[2026-06-12 22:44:02,819] WARNING _internal.py:96 -  * Debugger is active!
+[2026-06-12 22:44:02,827] INFO _internal.py:96 -  * Debugger PIN: 100-727-467
+[2026-06-12 22:44:05,749] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:44:05] "GET / HTTP/1.1" 200 -
+[2026-06-12 22:44:06,043] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:44:06] "GET /static/images/histogram.png HTTP/1.1" 200 -
+[2026-06-12 22:46:02,777] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\joblib\\__init__.py', reloading
+[2026-06-12 22:46:02,850] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\joblib\\memory.py', reloading
+[2026-06-12 22:46:02,951] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\joblib\\logger.py', reloading

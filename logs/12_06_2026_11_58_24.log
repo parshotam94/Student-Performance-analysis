@@ -1,0 +1,5 @@
+[2026-06-12 11:58:24,202] WARNING _internal.py:96 -  * Debugger is active!
+[2026-06-12 11:58:24,214] INFO _internal.py:96 -  * Debugger PIN: 100-727-467
+[2026-06-12 11:58:29,965] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 11:58:29] "GET / HTTP/1.1" 200 -
+[2026-06-12 11:58:34,104] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 11:58:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-06-12 11:59:32,558] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 11:59:32] "POST /predictdata HTTP/1.1" 200 -

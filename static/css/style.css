@@ -1,0 +1,474 @@
+/* ==========================
+   Global Styling
+========================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #f1f5f9;
+
+  min-height: 100vh;
+
+  padding: 30px;
+
+  color: #1e293b;
+}
+
+/* ==========================
+   Main Dashboard Container
+========================== */
+
+.dashboard-container {
+  max-width: 1400px;
+
+  margin: auto;
+}
+
+.dashboard-title {
+  text-align: center;
+
+  font-size: 38px;
+
+  margin-bottom: 35px;
+
+  font-weight: 700;
+
+  color: #0f172a;
+}
+
+/* ==========================
+   Summary Cards Grid
+========================== */
+
+.card-container {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 25px;
+
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 18px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s;
+
+  border-left: 6px solid #2563eb;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #64748b;
+
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 32px;
+
+  color: #2563eb;
+}
+
+/* ==========================
+   Section Cards
+========================== */
+
+.section {
+  background: white;
+
+  margin-top: 30px;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.section h2 {
+  margin-bottom: 20px;
+
+  color: #0f172a;
+}
+
+/* ==========================
+   Column Tags
+========================== */
+
+.column-list {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 12px;
+}
+
+.column-list span {
+  background: #e0f2fe;
+
+  color: #0369a1;
+
+  padding: 10px 18px;
+
+  border-radius: 20px;
+
+  font-weight: 600;
+}
+
+/* ==========================
+   Statistics Table
+========================== */
+
+.stats-table {
+  width: 100%;
+
+  border-collapse: collapse;
+}
+
+.stats-table th {
+  background: #2563eb;
+
+  color: white;
+
+  padding: 15px;
+}
+
+.stats-table td {
+  padding: 12px;
+
+  text-align: center;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.stats-table tr:hover {
+  background: #f8fafc;
+}
+
+/* ==========================
+   Image Card
+========================== */
+.image-card {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+
+    width: 100%;
+
+}
+
+
+
+.image-card img {
+
+    width: 100%;
+
+    height: 300px;
+
+    object-fit: contain;
+
+    background: white;
+
+    border-radius: 15px;
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,0.15);
+
+    padding: 15px;
+
+    transition: 0.3s;
+
+}
+
+
+.image-card img:hover {
+
+    transform: scale(1.03);
+
+}
+
+/* ==========================
+   Prediction Card
+========================== */
+
+.prediction-card {
+  margin-top: 35px;
+
+  background: white;
+
+  padding: 35px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.prediction-card h2 {
+  text-align: center;
+
+  margin-bottom: 30px;
+}
+
+/* Prediction Form Grid */
+
+.prediction-form {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 25px;
+}
+
+.form-group {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+
+  margin-bottom: 8px;
+
+  color: #334155;
+}
+
+.form-group input,
+.form-group select {
+  height: 45px;
+
+  border-radius: 10px;
+
+  border: 1px solid #cbd5e1;
+
+  padding: 10px;
+
+  font-size: 15px;
+
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #2563eb;
+
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.25);
+}
+
+/* Button */
+
+.predict-btn {
+  grid-column: span 2;
+
+  height: 55px;
+
+  border: none;
+
+  border-radius: 14px;
+
+  background: #2563eb;
+
+  color: white;
+
+  font-size: 18px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.predict-btn:hover {
+  background: #1d4ed8;
+
+  transform: scale(1.02);
+}
+
+/* ==========================
+   Result Box
+========================== */
+
+.result-box {
+  margin-top: 25px;
+
+  padding: 20px;
+
+  background: #dcfce7;
+
+  color: #166534;
+
+  border-radius: 15px;
+
+  text-align: center;
+
+  font-size: 22px;
+
+  font-weight: 600;
+}
+
+/* ==========================
+   Responsive Design
+========================== */
+
+@media (max-width: 900px) {
+  body {
+    padding: 15px;
+  }
+
+  .prediction-form {
+    grid-template-columns: 1fr;
+  }
+
+  .predict-btn {
+    grid-column: span 1;
+  }
+
+  .dashboard-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .image-card img {
+    width: 100%;
+  }
+}
+/* =========================
+   Toast Notification
+========================= */
+
+.notification {
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.45);
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: flex-start;
+
+  padding-top: 80px;
+
+  z-index: 9999;
+
+  animation: fadeIn 0.3s ease;
+}
+
+.notification-content {
+  width: 380px;
+
+  background: white;
+
+  border-radius: 20px;
+
+  padding: 30px;
+
+  text-align: center;
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+
+  position: relative;
+
+  animation: slideDown 0.4s ease;
+}
+
+.notification-content h2 {
+  color: #16a34a;
+
+  margin-bottom: 15px;
+}
+
+.notification-content p {
+  font-size: 20px;
+
+  color: #334155;
+}
+
+.notification-content strong {
+  color: #2563eb;
+
+  font-size: 28px;
+}
+
+.close-btn {
+  position: absolute;
+
+  top: 10px;
+
+  right: 15px;
+
+  font-size: 28px;
+
+  cursor: pointer;
+
+  color: #64748b;
+}
+
+.close-btn:hover {
+  color: #ef4444;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-50px);
+
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.prediction-button{
+  background: green;
+  color:white;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: italic;
+}

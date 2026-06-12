@@ -1,0 +1,16 @@
+[2026-06-12 22:59:02,958] WARNING _internal.py:96 -  * Debugger is active!
+[2026-06-12 22:59:02,966] INFO _internal.py:96 -  * Debugger PIN: 100-727-467
+[2026-06-12 22:59:02,992] WARNING _internal.py:96 -  * Debugger is active!
+[2026-06-12 22:59:03,001] INFO _internal.py:96 -  * Debugger PIN: 100-727-467
+[2026-06-12 23:05:25,136] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:05:25] "POST /predictdata HTTP/1.1" 200 -
+[2026-06-12 23:05:25,337] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:05:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-06-12 23:05:25,337] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:05:25] "[36mGET /static/images/histogram.png HTTP/1.1[0m" 304 -
+[2026-06-12 23:05:28,914] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:05:28] "GET / HTTP/1.1" 200 -
+[2026-06-12 23:05:29,180] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:05:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-06-12 23:05:29,244] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:05:29] "[36mGET /static/images/histogram.png HTTP/1.1[0m" 304 -
+[2026-06-12 23:05:33,249] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:05:33] "[33mGET /templates/predict.html HTTP/1.1[0m" 404 -
+[2026-06-12 23:07:42,316] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\IPython\\display.py', reloading
+[2026-06-12 23:07:42,317] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\IPython\\display.py', reloading
+[2026-06-12 23:07:42,332] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\IPython\\core\\display_functions.py', reloading
+[2026-06-12 23:07:42,333] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\IPython\\core\\display_functions.py', reloading
+[2026-06-12 23:07:42,345] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\IPython\\lib\\display.py', reloading

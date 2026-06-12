@@ -1,0 +1,11 @@
+[2026-06-12 22:39:32,037] WARNING _internal.py:96 -  * Debugger is active!
+[2026-06-12 22:39:32,046] INFO _internal.py:96 -  * Debugger PIN: 100-727-467
+[2026-06-12 22:39:36,489] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:39:36] "GET / HTTP/1.1" 200 -
+[2026-06-12 22:39:36,539] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:39:36] "[33mGET /images/histogram.png HTTP/1.1[0m" 404 -
+[2026-06-12 22:39:56,183] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:39:56] "POST /predictdata HTTP/1.1" 200 -
+[2026-06-12 22:39:56,233] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:39:56] "[33mGET /images/histogram.png HTTP/1.1[0m" 404 -
+[2026-06-12 22:40:39,528] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:40:39] "POST /predictdata HTTP/1.1" 200 -
+[2026-06-12 22:40:39,575] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:40:39] "[33mGET /notebook/images/histogram.png HTTP/1.1[0m" 404 -
+[2026-06-12 22:43:23,905] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\OneDrive\\Desktop\\ML Projects\\ML_EndToEnd_Project\\app.py', reloading
+[2026-06-12 22:43:23,911] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\OneDrive\\Desktop\\ML Projects\\ML_EndToEnd_Project\\app.py', reloading
+[2026-06-12 22:43:23,913] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\OneDrive\\Desktop\\ML Projects\\ML_EndToEnd_Project\\app.py', reloading

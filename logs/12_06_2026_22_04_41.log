@@ -1,0 +1,9 @@
+[2026-06-12 22:04:41,509] WARNING _internal.py:96 -  * Debugger is active!
+[2026-06-12 22:04:41,529] INFO _internal.py:96 -  * Debugger PIN: 100-727-467
+[2026-06-12 22:04:47,149] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:04:47] "GET / HTTP/1.1" 200 -
+[2026-06-12 22:04:47,255] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:04:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-06-12 22:05:23,287] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:05:23] "POST /predictdata HTTP/1.1" 200 -
+[2026-06-12 22:05:44,691] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:05:44] "POST /predictdata HTTP/1.1" 200 -
+[2026-06-12 22:06:04,628] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:06:04] "POST /predictdata HTTP/1.1" 200 -
+[2026-06-12 22:06:19,849] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\IPython\\display.py', reloading
+[2026-06-12 22:06:19,944] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\IPython\\core\\display_functions.py', reloading

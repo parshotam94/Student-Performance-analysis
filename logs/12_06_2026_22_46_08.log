@@ -1,0 +1,21 @@
+[2026-06-12 22:46:08,922] WARNING _internal.py:96 -  * Debugger is active!
+[2026-06-12 22:46:08,931] WARNING _internal.py:96 -  * Debugger is active!
+[2026-06-12 22:46:08,933] INFO _internal.py:96 -  * Debugger PIN: 100-727-467
+[2026-06-12 22:46:08,954] INFO _internal.py:96 -  * Debugger PIN: 100-727-467
+[2026-06-12 22:51:22,231] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:51:22] "GET / HTTP/1.1" 200 -
+[2026-06-12 22:51:22,361] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:51:22] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-06-12 22:51:22,433] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:51:22] "[36mGET /static/images/histogram.png HTTP/1.1[0m" 304 -
+[2026-06-12 22:53:30,661] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:53:30] "GET / HTTP/1.1" 200 -
+[2026-06-12 22:53:30,758] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:53:30] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-06-12 22:53:30,924] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:53:30] "[36mGET /static/images/histogram.png HTTP/1.1[0m" 304 -
+[2026-06-12 22:54:00,742] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:54:00] "POST /predictdata HTTP/1.1" 200 -
+[2026-06-12 22:54:00,785] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:54:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-06-12 22:54:00,798] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:54:00] "[36mGET /static/images/histogram.png HTTP/1.1[0m" 304 -
+[2026-06-12 22:57:29,958] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:57:29] "GET / HTTP/1.1" 200 -
+[2026-06-12 22:57:30,176] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:57:30] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-06-12 22:57:30,340] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:57:30] "[36mGET /static/images/histogram.png HTTP/1.1[0m" 304 -
+[2026-06-12 22:57:56,589] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:57:56] "POST /predictdata HTTP/1.1" 200 -
+[2026-06-12 22:57:56,870] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:57:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-06-12 22:57:56,965] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 22:57:56] "[36mGET /static/images/histogram.png HTTP/1.1[0m" 304 -
+[2026-06-12 22:58:42,457] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\OneDrive\\Desktop\\ML Projects\\ML_EndToEnd_Project\\templates\\predict.py', reloading
+[2026-06-12 22:58:42,457] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\OneDrive\\Desktop\\ML Projects\\ML_EndToEnd_Project\\templates\\predict.py', reloading

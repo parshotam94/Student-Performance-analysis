@@ -1,0 +1,13 @@
+[2026-06-12 23:12:16,597] WARNING _internal.py:96 -  * Debugger is active!
+[2026-06-12 23:12:16,605] INFO _internal.py:96 -  * Debugger PIN: 100-727-467
+[2026-06-12 23:12:16,672] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:12:16] "GET / HTTP/1.1" 200 -
+[2026-06-12 23:12:16,828] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:12:16] "[36mGET /static/images/histogram.png HTTP/1.1[0m" 304 -
+[2026-06-12 23:12:16,831] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:12:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-06-12 23:12:21,119] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:12:21] "GET /predict HTTP/1.1" 200 -
+[2026-06-12 23:12:21,360] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:12:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-06-12 23:12:41,835] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:12:41] "POST /predictdata HTTP/1.1" 200 -
+[2026-06-12 23:12:41,882] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:12:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-06-12 23:12:41,896] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:12:41] "[36mGET /static/images/histogram.png HTTP/1.1[0m" 304 -
+[2026-06-12 23:16:03,126] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\OneDrive\\Desktop\\ML Projects\\ML_EndToEnd_Project\\app.py', reloading
+[2026-06-12 23:16:03,127] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\OneDrive\\Desktop\\ML Projects\\ML_EndToEnd_Project\\app.py', reloading
+[2026-06-12 23:16:03,127] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\OneDrive\\Desktop\\ML Projects\\ML_EndToEnd_Project\\app.py', reloading

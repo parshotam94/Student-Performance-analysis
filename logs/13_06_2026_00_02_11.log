@@ -1,0 +1,21 @@
+[2026-06-13 00:02:11,447] WARNING _internal.py:96 -  * Debugger is active!
+[2026-06-13 00:02:11,451] INFO _internal.py:96 -  * Debugger PIN: 100-727-467
+[2026-06-13 00:02:14,446] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:14] "GET / HTTP/1.1" 200 -
+[2026-06-13 00:02:14,513] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-06-13 00:02:14,687] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:14] "[36mGET /static/images/histogram.png HTTP/1.1[0m" 304 -
+[2026-06-13 00:02:14,783] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:14] "[36mGET /static/images/all_relationship.png HTTP/1.1[0m" 304 -
+[2026-06-13 00:02:14,785] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:14] "[36mGET /static/images/barplot.png HTTP/1.1[0m" 304 -
+[2026-06-13 00:02:14,789] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:14] "[36mGET /static/images/heatmap.png HTTP/1.1[0m" 304 -
+[2026-06-13 00:02:14,795] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:14] "[36mGET /static/images/parental_impact.png HTTP/1.1[0m" 304 -
+[2026-06-13 00:02:14,825] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:14] "[36mGET /static/images/score_relationship.png HTTP/1.1[0m" 304 -
+[2026-06-13 00:02:16,859] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:16] "GET / HTTP/1.1" 200 -
+[2026-06-13 00:02:16,887] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-06-13 00:02:17,121] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:17] "[36mGET /static/images/histogram.png HTTP/1.1[0m" 304 -
+[2026-06-13 00:02:17,199] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:17] "[36mGET /static/images/all_relationship.png HTTP/1.1[0m" 304 -
+[2026-06-13 00:02:17,200] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:17] "[36mGET /static/images/barplot.png HTTP/1.1[0m" 304 -
+[2026-06-13 00:02:17,202] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:17] "[36mGET /static/images/heatmap.png HTTP/1.1[0m" 304 -
+[2026-06-13 00:02:17,206] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:17] "[36mGET /static/images/parental_impact.png HTTP/1.1[0m" 304 -
+[2026-06-13 00:02:17,215] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:17] "[36mGET /static/images/score_relationship.png HTTP/1.1[0m" 304 -
+[2026-06-13 00:02:25,025] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:25] "GET /predict HTTP/1.1" 200 -
+[2026-06-13 00:02:25,255] INFO _internal.py:96 - 127.0.0.1 - - [13/Jun/2026 00:02:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-06-13 00:02:59,054] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\OneDrive\\Desktop\\ML Projects\\ML_EndToEnd_Project\\src\\pipeline\\predict_pipeline.py', reloading

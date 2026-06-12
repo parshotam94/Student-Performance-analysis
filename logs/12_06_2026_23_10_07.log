@@ -1,0 +1,7 @@
+[2026-06-12 23:10:07,177] WARNING _internal.py:96 -  * Debugger is active!
+[2026-06-12 23:10:07,188] INFO _internal.py:96 -  * Debugger PIN: 100-727-467
+[2026-06-12 23:10:07,286] WARNING _internal.py:96 -  * Debugger is active!
+[2026-06-12 23:10:07,293] INFO _internal.py:96 -  * Debugger PIN: 100-727-467
+[2026-06-12 23:10:07,412] INFO _internal.py:96 - 127.0.0.1 - - [12/Jun/2026 23:10:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2026-06-12 23:10:20,934] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+[2026-06-12 23:10:20,935] INFO _internal.py:96 -  * Detected change in 'C:\\Users\\prsho\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
